@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="products_generation" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1">
+            <label>Products generation</label>
+            <tab>general</tab>
+            <resource>Kogut_ProductsGeneration::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1">
+                <label>General</label>
+                <field id="qty_to_generate" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" canRestore="1">
+                    <label>Quantity of products to generate</label>
+                </field>
+                <field id="category_name_to_link" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" canRestore="1">
+                    <label>Category name to link generated products</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

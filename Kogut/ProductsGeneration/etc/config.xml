@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <products_generation>
+            <general>
+                <qty_to_generate>3</qty_to_generate>
+                <category_name_to_link>test cat for product generation</category_name_to_link>
+            </general>
+        </products_generation>
+    </default>
+</config>
